@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Web Development Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md">
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <a class="nav-link" href="index.html"><img src="images/ming diner.png" width="150" height="50" alt="Ming Diner Logo" ></a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page.html">Page Index
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+    <form action="#">
+      <div class="form-group">
+        <label> Enter Name:</label>
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label>Enter Email:</label>
+        <input type="email" class="form-control" placeholder="xxx@xxxx.com">
+    </div>
+      <div class="form-group">
+        <label>Your Comment:</label>
+        <textarea class="form-control">
+        </textarea>
+      </div>
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Verify submission</h5>
+      </div>
+      <div class="modal-body">
+        You thank for contacting us!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" href=#index>Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </form>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>

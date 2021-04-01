@@ -1,0 +1,28 @@
+.carousel {
+	width:65%;
+    height:auto;
+    margin: auto;
+    border: 0ch;
+  }
+
+  h2 {
+	color:rgba(255, 136, 0, 0.562);
+ }
+
+ h3 {
+	color:black;
+	background-color:rgba(255, 255, 255, 0.5);
+ }
+
+ h5 {
+	 color: rgba(97, 204, 231, 0.644);
+ }
+
+body {
+		background-color: rgba(255, 242, 200, 0.384);
+	}
+
+.nav-link{
+	color: rgb(250, 149, 34);
+	background-color: rgba(255, 255, 255, 0.5);
+}
