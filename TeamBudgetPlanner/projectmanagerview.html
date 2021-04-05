@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Team Budget Planner
+
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Vendor Name</label><label class="validation-error hide" id="fullNameValidationError"></label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Project Name</label>
+                        <input type="text" name="pName" id="pName">
+                    </div>
+                    <div>
+                        <label>Project Cost</label>
+                        <input type="text" name="cost" id="cost">
+                    </div>
+                    <div>
+                        <label>Location</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+        </table>
+        <table>
+            <td>
+                <table class="list" id="vendorList">
+                    <thead>
+                        <tr>
+                            <th>Vendor Name</th>
+                            <th>Project Name</th>
+                            <th>Project Cost</th>
+                            <th>Location</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <a class="page-link" href="index.html">Return home</a></li>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

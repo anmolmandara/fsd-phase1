@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Team Budget Planner
+
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Deals</h1>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Deal</label><label class="validation-error hide" id="fullNameValidationError"></label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Company</label>
+                        <input type="text" name="cName" id="cName">
+                    </div>
+                    <div>
+                        <label>Input A or D</label>
+                        <input type="text" name="aord" id="aord">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+        </table>
+        <table>
+            <td>
+                <table class="list" id="dealsList">
+                    <thead>
+                        <tr>
+                            <th>Deal</th>
+                            <th>Company</th>
+                            <th>Accepted or Decline</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <a class="page-link" href="budgetview.html">Project Budgets</a><br>
+    <a class="page-link" href="index.html">Return home</a>
+
+
+    <script src="financescript.js"></script>
+</body>
+
+</html>
